@@ -7,16 +7,16 @@ const HomePage = () => {
 
     return <>
     <div className="flex flex-col gap-y-12 w-screen h-screen">
-        <section className="border-b-2 border-black">
+        <section className="">
             <HeroSection />
         </section>
 
-        <section className="border-b-2 border-black">
+        <section className="">
             <MiddlePage />
 
         </section>
 
-        <section className="border-b-2 border-black h-screen w-screen">
+        <section className="h-screen w-screen">
             <Footer/>
         </section>
         </div>

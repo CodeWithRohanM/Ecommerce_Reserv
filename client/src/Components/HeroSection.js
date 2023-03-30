@@ -6,7 +6,7 @@ const HeroSection = () => {
     return <>
 
 
-        <div className="w-screen h-screen bg-red-400">
+        <div className="w-screen h-screen">
         <Header />
 
 
@@ -14,7 +14,7 @@ const HeroSection = () => {
 
 
             <div className="flex flex-col gap-y-12 w-full">
-                <div className="grid grid-cols-3 gap-x-2 container mx-auto max-w-md md:max-w-2xl bg-yellow-300 -mt-96">
+                <div className="grid grid-cols-3 gap-x-2 container mx-auto max-w-md md:max-w-2xl -mt-96">
 
                     <select className="p-2 bg-white rounded-lg text-gray-500 font-bold active:bg-none 
                     text-sm md:text-lg">
@@ -39,7 +39,7 @@ const HeroSection = () => {
                 </div>
 
                 <div className="flex flex-row justify-center">
-                    <button type="button" className="bg-orange-500 px-12 py-2 text-white font-bold hover:bg-orange-400">
+                    <button type="button" className="bg-orange-500 px-12 md:px-20 py-2 text-white font-bold hover:bg-orange-400">
                         Search</button>
                 </div>
             </div>
