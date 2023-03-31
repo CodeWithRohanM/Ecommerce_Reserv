@@ -23,7 +23,7 @@ const MiddlePage = () => {
 
                     <div className="flex flex-col gap-y-3 bg-gray-100 items-center justify-evenly w-1/2 md:w-1/4 h-4/5 rounded-lg shadow-2xl">
                         <img src="/Images/tickets.gif" className="w-16 h-16 md:w-24 border-2 border-gray-300 md:h-24 rounded-full"></img>
-                        <h1 className="text-center text-sm md:text-lg tracking-widest"><span className="font-bold text-3xl relative">5000<span className="absolute -mt-4 -ml-1 text-4xl">+</span></span> <br></br>Tickets book everyday</h1>
+                        <h1 className="text-center text-sm md:text-lg tracking-widest"><span className="font-bold text-3xl relative ">5000<span className="absolute -mt-4   -ml-1 text-4xl">+</span></span> <br></br>Tickets book everyday</h1>
                     </div>
 
                 </div>

@@ -11,13 +11,13 @@ const HeroSection = () => {
     return <>
 
 
-        <div className="w-screen h-screen">
+        <div className="w-screen h-screen flex flex-col">
             <Header />
 
-            <img src="/Images/bgImage.jpeg" className="object-cover h-4/5 w-full"></img>
+            <img src="/Images/bgImage_animated.jpeg" className="object-cover h-5/6 items-center"></img>
 
-            <div className="flex flex-col gap-y-12 w-full">
-                <div className="grid grid-cols-3 gap-x-2 container mx-auto max-w-md md:max-w-2xl -mt-96">
+            <div className="flex flex-col gap-y-12 w-full bg-yellow-300">
+                <div className=" grid grid-cols-3 gap-x-2 container mx-auto max-w-md md:max-w-2xl -mt-96">
 
                     <select className="p-2 bg-white rounded-lg text-gray-500 font-bold active:bg-none 
                     text-sm md:text-lg hover:cursor-pointer">
@@ -43,7 +43,7 @@ const HeroSection = () => {
 
                     </select>
 
-                <div className="flex flex-row items-center gap-x-2 p-2 bg-white rounded-lg text-gray-500 font-bold active:bg-none text-sm md:text-lg hover:cursor-pointer">
+                    <div className="flex flex-row items-center gap-x-2 p-2 bg-white rounded-lg text-gray-500 font-bold active:bg-none text-sm md:text-lg hover:cursor-pointer">
                     <DatePicker
                         selected={selectedDate}
                         onChange={(date) => setSelectedDate(date)}
