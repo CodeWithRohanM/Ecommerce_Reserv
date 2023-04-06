@@ -50,7 +50,6 @@ const HeroSection = () => {
                         dateFormat={`dd MMM yyyy`}
                         className="w-full hover:cursor-pointer px-4 focus:outline-none"
                         shouldCloseOnSelect={true}
-                        readOnly={true}
                     />
 
                     <img src="/Images/animated.gif" className="w-8 h-8"></img>

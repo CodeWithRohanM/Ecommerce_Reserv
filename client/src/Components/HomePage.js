@@ -16,7 +16,8 @@ const HomePage = () => {
 
         </section>
 
-        <section className="h-screen w-screen">
+
+        <section className="">
             <Footer/>
         </section>
         </div>

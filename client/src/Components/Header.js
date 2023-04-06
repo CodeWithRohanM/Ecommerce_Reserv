@@ -8,9 +8,9 @@ const Header = () => {
 
         <div className="bg-white w-full py-4 shadow-2xl tracking-widest" id="navbarStyles">
 
-            <div className="flex flex-col gap-y-4 md:flex-row md:justify-between w-full container mx-auto">
+            <div className="flex flex-col gap-y-4 md:flex-row md:justify-between w-full container mx-auto bg-yellow-300 items-center">
 
-                <div className="flex flex-col gap-y-8 md:flex-row md:gap-x-20 items-center w-2/5">
+                <div className="flex flex-col gap-y-8 md:flex-row md:gap-x-20 items-center w-2/5 bg-red-400">
                     <NavLink to="/"
                         style={({ isActive }) => ({
                             borderBottom: isActive ? "1px solid black" : "none",
@@ -26,18 +26,19 @@ const Header = () => {
                                 color: isActive ? "orange" : "black",
                                 borderBottom: isActive ? "1px solid black" : "none",
                             })}
-                        ><h1 className="hover:cursor-pointer text-xl antialiased font-bold hover:bg-gray-200 rounded-lg transition ease-in-out duartion-700  py-2 px-4">Ticket</h1></NavLink>
+                        ><h1 className="hover:cursor-pointer text-xl antialiased font-bold hover:bg-gray-200 rounded-lg transition ease-in-out duration-300 py-2 px-4">Ticket</h1></NavLink>
+
                         <NavLink to="/contact"
                             style={({ isActive }) => ({
                                 color: isActive ? "orange" : "black",
                                 borderBottom: isActive ? "1px solid black" : "none",
                             })}
-                        ><h1 className="hover:cursor-pointer text-xl antialiased font-bold hover:bg-gray-200 rounded-lg py-2  px-4">Contact Us</h1></NavLink>
+                        ><h1 className="hover:cursor-pointer text-xl antialiased font-bold hover:bg-gray-200 rounded-lg py-2 px-4 transition ease-in-out duration-300">Contact Us</h1></NavLink>
                     </div>
                 </div>
 
 
-                <div className="flex flex-col gap-y-4 md:flex-row gap-x-6 items-center">
+                <div className="flex flex-col gap-y-4 md:flex-row gap-x-3 items-center bg-gray-300">
                     <NavLink to="/logIn"
                         style={({ isActive }) => ({
                             color: isActive ? "white" : "black",
@@ -49,7 +50,7 @@ const Header = () => {
                             color: isActive ? "orange" : "black",
                             borderBottom: isActive ? "1px solid black" : "none",
                         })}
-                    ><h1 className="hover:cursor-pointer text-xl antialiased font-bold hover:bg-gray-200 py-2 px-4 rounded-lg">Register</h1></NavLink>
+                    ><h1 className="hover:cursor-pointer text-xl antialiased font-bold hover:border-2 hover:border-gray-400 py-2 px-6 rounded-lg text-center hover:bg-gray-100 transition ease-in-out duration-300">Register</h1></NavLink>
                 </div>
             </div>
         </div>

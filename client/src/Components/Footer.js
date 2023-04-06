@@ -4,10 +4,10 @@ const Footer = () => {
 
     return <>
 
-        <div className="w-screen h-96 tracking-wider">
+        <div className="w-screen h-fit md:h-96 tracking-wider">
 
 
-            <div className="flex flex-row w-full h-full bg-gray-200">
+            <div className="flex flex-row w-full h-full bg-gray-300">
 
                 <div className=" w-1/2 flex flex-col justify-center">
 
